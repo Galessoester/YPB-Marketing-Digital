@@ -1,0 +1,458 @@
+@charset "UTF-8";
+/*
+Theme Name: ypb
+Author: YPB
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap'); 
+/* --------------------------------------------- ESTRUTURAS -------------------------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #565656;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+:target {
+    scroll-margin-top: .8em;
+}
+img {
+    max-width: 100%;
+}
+
+.img-fluid {
+	max-width: 100%!important;
+}
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 3px 0;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.align-top {
+	align-self: flex-start;
+}
+
+.wrap {
+	flex-wrap: wrap;
+}
+
+.justify__between {
+    justify-content: space-between;
+}
+.justify__around {
+    justify-content: space-around;
+}
+
+.menu {
+    padding: 0 15px;
+    font-weight: bold;
+}
+#menu-fixed {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 99999;
+    top: 0;
+    -webkit-box-shadow: 0 5px 20px -6px rgb(0 0 0 / 36%);
+    box-shadow: 0 5px 20px -6px rgb(0 0 0 / 36%);
+}
+.container__metade {
+    width: 50%;
+    font-size: 28px;
+    align-items: left;
+}
+
+.container__servicos {
+    min-height:420px;
+}
+
+.container__servicos h1{
+    color: #003b95;
+    font-size: 33px;
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.box__margin {
+    margin: 10px;
+    padding: 10px;
+}
+
+.box-3 {
+    width: 33%;
+}
+
+.box-2 {
+    width: 45%;
+}
+
+.box__padding {
+    padding: 15px;
+}
+
+
+.box__cinza {
+    font-size: 18px;
+    background-color: #f8f8f8;
+}
+
+.box__h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+}
+#container-boxes {
+    margin: -120px auto 50px;
+    text-align: justify;
+}
+.align__section {
+    margin-top: 30px;
+}
+
+.portfolio__image {
+    width: 24%;
+    margin-right: 1%;
+    text-align: center;
+	margin-top: 5px
+}
+
+.portfolio__header {
+	padding-top: 75px;
+}
+
+.icone__resultados {
+    padding-bottom: 15px;
+}
+
+.box h1 , .box__h2 {
+    margin: 30px 0 20px;
+}
+
+
+.conteudo {
+    padding-right: 180px;
+    white-space : nowrap;
+}
+
+.conteudo-info {
+    padding: 0 18%;
+}
+
+.conteudo__ebook {
+    width: 43%;
+    margin: 90px 0;
+}
+
+#checkbox {
+    margin: 10px;
+}
+
+.form__ebook {
+    margin: 20px 0;
+}
+
+.form__container {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+#text-area {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.campo {
+    width: 100%;
+    padding: 10px 0 10px 7px;
+    border: 0;
+    border-bottom: 3px solid #828282;
+    border-radius: 3px;
+}
+button {
+    border: none;
+    padding: 15px 70px;
+    font-weight: 700;
+    background-color: #008341;
+}
+
+.color__fff {
+    color: #fff;
+}
+
+.dados__ypb {
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.mapa {
+    margin: 0;
+    height: 350px;
+}
+
+.footer {
+    background-color: #151515;
+    margin: 0;
+    
+}
+#icone-endereco {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2022/11/icone-endereco.png');
+    background-repeat: no-repeat;
+    background-position: 0 2px;
+    
+}
+#icone-fone {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2022/11/icone-telehone.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+#icone-mail {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2022/11/icone_email.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+#margin-negativa {
+    margin-top:-70px;
+}
+
+.redes__sociais {
+    padding: 0 5px;
+}
+
+/* -------------------------------------------- BACKGROUND -------------------------------------- */
+#bg-hero {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/bg_hero.jpg');
+    padding-bottom: 120px ;
+}
+#bg-lampadas {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/bg_lampadas.jpg');
+}
+.bg__modelo {
+    padding-bottom: 50px ;
+    background-position: right 50px;
+    background-repeat:no-repeat;
+    background-size: 70%;
+}
+#bg-planejamento {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_planejamento-estrategico.png');
+}
+#bg-emkt {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_email_marketing.png');
+}
+#bg-redes-sociais {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_redes-sociais.png');
+}
+#bg-campanhas-de-midia {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_campanhas-de-midia.png');
+}
+#bg-apresentacoes-profissionais {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_apresentacoes-profissionais.png');
+}
+#bg-criacao-de-videos {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_criacao-de-videos.png');
+}
+#bg-website {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/bg_website.jpg');
+}
+#bg-e-commerce {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_ecommerce.png');
+}
+#bg-aplicativos {
+    background-image: url('https://homolog.ypb.com.br/ypb-marketing-digital/wp-content/uploads/2023/01/header_aplicativos.png');
+}
+
+#bg-ebook {
+    min-height: calc(100vh - 32px);
+    background-size:contain;
+    background-position: right;
+    background-repeat:no-repeat;
+    background-image: url('../Imagens/bg_ebook.jpg');
+}
+
+.bg__image {
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    margin-top: 45px;
+}
+
+.bg__emkt {
+    background-image: url('../Imagens/Portfolio-cnph/emkt_bg.png');
+}
+
+.bg__cover {
+    background-size: cover;
+}
+/* ------------------------------------------ FIM BACKGROUND ------------------------------------ */
+/* ------------------------------------------ FIM ESTRUTURAS------------------------------------- */
+
+/* ---------------------------------------------- TEXTOS ---------------------------------------- */
+.decoration__none , a{
+    text-decoration: none;
+    list-style: none;
+    color: #000;
+}
+.menu a {
+    color: #565656;
+}
+
+h3 , h4 {
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h1 {
+    font-weight: 800;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.title {
+    color: #565656;
+    font-size: 40px;
+}
+.subhead {
+    font-size: 24px ;
+    margin-bottom: 10px;
+}
+
+.box {
+    font-size: 14px;
+}
+
+.box__branco {
+    background-color: #fff;
+}
+
+.text__align__center {
+    text-align: center;
+}
+
+.text__align__justify {
+    text-align: justify;
+}
+
+.size__16 {
+    font-size: 16px;
+}
+
+.line__height {
+    line-height: 22px;
+}
+
+/* -------------------------------------------- FIM TEXTOS -------------------------------------- */
+
+.botao {
+    padding: 10px 0;
+    margin: 10px 0;
+    width: 100%;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.botao__amarelo {
+    border: 3px solid #f38f18;
+}
+
+.botao__verde {
+    border: 3px solid #008341;
+}
+
+.botao__servicos {
+    width: 90%;
+}
+
+/* ------------------------------- CORES -------------------------------- */
+.amarelo {
+    background-color: #f38f18;
+}
+
+#azul {
+    background-color: #003b95;
+}
+
+.verde {
+    background-color: #008341;
+}
+
+.borda__verde {
+    border-bottom: 4px solid #008341;
+}
+.borda__azul {
+    border-bottom: 4px solid #003b00;
+}
+
+.borda__amarela {
+    border-bottom: 4px solid #f38f18;
+}
+
+.borda__cinza {
+    padding-bottom: 45px;
+    border-bottom: 4px solid #828282;
+}
+
+.linha {
+    border: 2px solid #f38f18;
+    margin: 15px 50% 15px -50%;
+}
+
+.bg__contato {
+    padding-top: 20px;
+    background-color: #f8f8f8;
+}
+
+.box__link:hover {
+    background-color: rgba(248,248,248,0.5);
+}
+/* ------------------------------------------ FIM CORES ------------------------------------ */
+
+/* arrumar counter numeros */
+
+@media (max-width: 785px) {
+    .flex {
+        display: block;
+    }
+    .container__metade {
+        width: 100%;
+    }
+    .box__margin {
+        width: 100%;
+    }
+    #container-boxes {
+        margin: 0 auto;
+    }
+
+    .conteudo {
+        padding: 0;
+    }
+    .form__container {
+        width: 100%;
+    }
+    
+}
+

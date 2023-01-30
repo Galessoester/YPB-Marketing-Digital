@@ -1,0 +1,31 @@
+[11-Oct-2021 17:13:50 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'box__cinza' (T_STRING) in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 3
+[11-Oct-2021 17:13:50 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'box__cinza' (T_STRING) in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 3
+[11-Oct-2021 17:13:54 America/Fortaleza] PHP Parse error:  syntax error, unexpected 'box__cinza' (T_STRING) in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 3
+[11-Oct-2021 17:20:21 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
+[11-Oct-2021 17:20:24 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
+[11-Oct-2021 17:20:53 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
+[11-Oct-2021 17:20:54 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
+[11-Oct-2021 17:20:57 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
+[11-Oct-2021 17:21:01 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
+[11-Oct-2021 17:21:03 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function inlcude() in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php:212
+Stack trace:
+#0 {main}
+  thrown in /home1/ypbsab55/homolog.ypb.com.br/ypb-dev/index.php on line 212
